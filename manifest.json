@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "txls_demo",
+  "description": "retrieve highlighted text then return the summarized result",
+  "version": "1.0.0",
+  "icons": {
+    "16": "favicon.png",
+    "48": "favicon.png",
+    "128": "favicon.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "favicon.png",
+    "default_popup": "popup.html"
+  }
+}
