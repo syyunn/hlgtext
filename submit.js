@@ -1,0 +1,1 @@
+document.getElementById('hlgt_form').submit();
