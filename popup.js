@@ -5,8 +5,8 @@ chrome.tabs.executeScript( {
     document.write(selection[0]);
 
     var text =
-        '<form action="http://localhost:8080/example" method="post" id="hlgt_form">' +
-        '<input type="hidden" id = "hlgt" name = "hlgt" value= ""> ' +
+        '<form action="http://localhost:8080/example" method="POST" id="hlgt_form">' +
+        '<input type="hidden" id="hlgt" name="hlgt" value="">' +
         '</form>';
 
     document.write(text);
